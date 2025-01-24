@@ -80,6 +80,7 @@ void DoThatFunction::printHelp(Console& console)
     // General section
     console.println("\nGeneral Commands:", Color::Green);
     console.println("  help - Display this help message", Color::White);
+    console.println("  clear - Clear the actual display", Color::White);
     console.println("  exit - Quit the application", Color::White);
 
     // More information
